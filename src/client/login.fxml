@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="171.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.login">
+   <children>
+      <Label layoutX="26.0" layoutY="29.0" text="Server :" />
+      <TextField fx:id="ipFld" layoutX="93.0" layoutY="24.0" prefHeight="27.0" prefWidth="234.0" promptText="Input server ip here" />
+      <TextField fx:id="portFld" layoutX="93.0" layoutY="65.0" prefHeight="27.0" prefWidth="234.0" promptText="Input server port here" />
+      <Label layoutX="26.0" layoutY="70.0" text="Port :" />
+      <Label layoutX="26.0" layoutY="106.0" text="Name :" />
+      <TextField fx:id="nameFld" layoutX="93.0" layoutY="101.0" prefHeight="27.0" prefWidth="234.0" promptText="Input your nickname here" />
+      <Button layoutX="147.0" layoutY="137.0" mnemonicParsing="false" onAction="#onClickConn" text="Connect" />
+   </children>
+</Pane>
