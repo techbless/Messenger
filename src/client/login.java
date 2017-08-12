@@ -1,5 +1,7 @@
-package client;
+package Client;
 
+
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,27 +11,35 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class login {
-
-    public TextField ipFld;
-    public TextField portFld;
-    public TextField nameFld;
-    public String sPort;
-
+    @FXML public TextField server_ip;
+    @FXML public TextField port;
+    @FXML public TextField name;
+    @FXML public String sPort;
 
 
 
-    public void onClickConn() throws IOException{
-        data.ip = ipFld.getText();
-        this.sPort = portFld.getText();
-        data.name = nameFld.getText();
+
+    public void onClick() throws IOException{
+        System.out.println("Clicked");
+        data.ip = server_ip.getText();
+        this.sPort = port.getText();
+        data.name = name.getText();
         data.port = Integer.parseInt(sPort);
 
-        System.out.println(data.ip + data.name + data.port);
+
         Stage stage;
-        stage = (Stage) ipFld.getScene().getWindow();
-        Parent parent = FXMLLoader.load(getClass().getResource("chatroom.fxml"));
-        stage.setScene(new Scene(parent, 600  , 400));
+        stage = (Stage) server_ip.getScene().getWindow();
+        //Parent parent = FXMLLoader.load(getClass().getResource("room.fxml"));
+        Parent root = FXMLLoader.load(login.class.getResource("room.fxml"));
+        stage.setScene(new Scene(root, 600, 400));
         stage.setTitle(data.name);
+        stage.setOnCloseRequest(e-> {
+            //e.consume();
+            room.th.stop();
+            System.exit(0);
+        });
+        stage.setResizable(false);
+
         stage.show();
     }
 
