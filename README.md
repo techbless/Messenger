@@ -1,5 +1,27 @@
-# multi_chatting_client
-this is the client using JavaFX for multi chatting server, and it will send messages to multi chatting server and receive messages from the server. Here is the server Git https://github.com/costlyman22/multi_chatting_server
+# Multi Messenger
+this is the client useing Javafx and server using java collaborated with useok.
+
+you need to import to IDE that you use for loading the source code to your IDE
+
+#How do I use?
+
+Step 1.  import to your IDE
+
+Step 2.  let the Server Side Source Code run
+
+Step 3.  let the Client Side Source Code run
+
+Step 4.  put the information about server and your nickname and click the button
+
+Step 5.  enjoy the Communication with your friends or colleague
+
+#I want to donate my ability to this project
+
+Feel free to contact me
+
+E-mail : hw@yunbin.kr
+
+Discord : Chris Chang #2608
 
 You can see a video that running client and server here
-https://youtu.be/cRa3bKxX4Yc
+https://youtu.be/cRa3bKxX4Yc [Not Updated]
