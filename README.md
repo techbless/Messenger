@@ -15,6 +15,8 @@ Step 4.  put the information about server and your nickname and click the button
 
 Step 5.  enjoy the Communication with your friends or colleague
 
+This Server-Side program can accept clients as many as you want
+
 #I want to contribute my ability to this project
 
 Feel free to contact me
