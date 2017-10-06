@@ -1,5 +1,5 @@
 # Multi Messenger
-this is the client useing Javafx and server using java collaborated with useok.
+this is the client using Javafx and server using java collaborated with Jack-Shin.
 
 you need to import to IDE that you use for loading the source code to your IDE
 
