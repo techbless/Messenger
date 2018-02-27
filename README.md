@@ -2,6 +2,9 @@
     this is the client using Javafx and server using java collaborated with Jack-Shin.
 
     you need to import to IDE that you use for loading the source code to your IDE
+    
+## Status
+    [![Travis](https://img.shields.io/jenkins/s/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)]() [![apm](https://img.shields.io/apm/l/vim-mode.svg)]()
 
 ## How do I use?
 
