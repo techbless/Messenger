@@ -30,4 +30,8 @@
 
 ## Video
     You can see a video that running client and server here
+    
     https://youtu.be/cRa3bKxX4Yc [Not Updated]
+    Click Below to See Example Video
+
+[![Video](https://img.youtube.com/vi/cRa3bKxX4Yc/0.jpg)](https://youtu.be/cRa3bKxX4Yc)
